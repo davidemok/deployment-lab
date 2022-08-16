@@ -5,7 +5,7 @@ let card4 = document.getElementById("card4")
 
 const alertTitle = evt => {
     evt.preventDefault();
-    alert("ALL PAYMENTS FINAL NO REFUNDS AND NO CUSTOMER SERVICE WE DON'T WANT YOUR WORDS, JUST YOUR MONEY")
+    alert("ALL PAYMENTS FINAL NO REFUNDS AND NO CUSTOMER SERVICE")
 }
 
 const price1 = evt => {
