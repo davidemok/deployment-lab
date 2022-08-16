@@ -1,8 +1,8 @@
 let title = document.querySelector("h1")
 let card1 = document.querySelector('#card1')
-let card2 = document.getElementById(card2)
-let card3 = document.getElementById(card3)
-let card4 = document.getElementById(card4)
+let card2 = document.getElementById("card2")
+let card3 = document.getElementById("card3")
+let card4 = document.getElementById("card4")
 
 const alertTitle = evt => {
     evt.preventDefault();
