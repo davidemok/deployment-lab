@@ -15,4 +15,4 @@ app.get('/js', getJava)
 
 const port = process.env.PORT
 
-app.listen(4000, console.log("Server running on 4000"))
+app.listen(port, console.log("Server running on 4000"))
