@@ -4,6 +4,10 @@ h1{
     text-align: center;
 }
 
+body{
+    background-color: black;
+}
+
 #card1{
     width: 300px;
     height: 450px;
