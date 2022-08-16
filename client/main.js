@@ -1,7 +1,6 @@
 let title = document.querySelector("h1")
 let card1 = document.querySelector('#card1')
 let card2 = document.getElementById("card2")
-let card3 = document.getElementById("card3")
 let card4 = document.getElementById("card4")
 
 const alertTitle = evt => {
@@ -19,9 +18,6 @@ const price2 = evt => {
     alert("that will be $100")
 }
 
-const price3 = evt => {
-    alert("$300")
-}
 
 const price4 = evt => {
     alert("free if you send this to your HOA president (shipping not included)")
@@ -30,7 +26,6 @@ const price4 = evt => {
 title.addEventListener('mouseover', alertTitle);
 card1.addEventListener('click', price1);
 card2.addEventListener('click', price2);
-card3.addEventListener("click", price3);
 card4.addEventListener("click", price4);
 
 
