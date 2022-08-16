@@ -24,6 +24,10 @@ body{
     width: 300px;
     height: 450px;
 }
+#card5{
+    width: 300px;
+    height: 450px;
+}
 
 section{
     display: flex;
