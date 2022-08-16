@@ -1,5 +1,4 @@
 const path = require('path')
-const { mainModule } = require('process')
 
 module.exports = {
     getHTML: (req, res) => {
