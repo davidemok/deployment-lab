@@ -1,6 +1,7 @@
 const express = require("express")
 const cors = require("cors")
 const app = express()
+require("dotenv").config()
 
 app.use(cors())
 app.use(express.json())
@@ -8,7 +9,7 @@ app.use(express.static('client'))
 
 var Rollbar = require("rollbar");
 var rollbar = new Rollbar({
-  accessToken: '0847950fb90641a1a46b78f00a546599',
+  accessToken: process.env.ACCESS_TOKEN,
   captureUncaught: true,
   captureUnhandledRejections: true
 });
